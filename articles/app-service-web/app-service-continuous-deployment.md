@@ -18,11 +18,11 @@
 
 # Continuous Deployment to Azure App Service
 
-This tutorial shows you how to configure a continuous deployment workflow for your [Azure App Service] app. App Service integration with BitBucket, GitHub, and Visual Studio Team Services (VSTS) enables a continuous deployment workflow where Azure pulls in the most recent updates from your project published to one of these services. Continuous deployment is a great option for projects where multiple and frequent contributions are being integrated.
+This tutorial shows you how to configure a continuous deployment workflow for your [Azure App Service] app. App Service integration with BitBucket, GitHub, and Visual Studo Team Services (VSTS) enables a continuous deployment workflow where Azure pulls in the most recent updates from your project published to one of these services. Continuous deployment is a great option for projects where multiple and frequent contributions are being integrated.
 
 ## <a name="overview"></a>Enable continuous deployment
 
-To enable continuous deployment,
+To enable continuousdeployment,
 
 1. Publish your app content to the repository that will be used for continuous deployment.  
     For more information on publishing your project to these services, see [Create a repo (GitHub)], [Create a repo (BitBucket)], and [Get started with VSTS].
@@ -47,7 +47,7 @@ To enable continuous deployment,
 
 6. To verify that continuous deployment is occurring from the repository of your choice, push a change to the repository. Your app should update to reflect the changes shortly after the push to the repository completes. You can verify that it has pulled in the update in the **Deployment options** blade of your app.
 
-## <a name="VSsolution"></a>Continuous deployment of a Visual Studio solution
+## <a name="VSsolution"></a>Continuous deployment of a Visual Studo solution.
 
 Pushing a Visual Studio solution to Azure App Service is just as easy as pushing a simple index.html file. The App Service deployment process streamlines all the details, including restoring NuGet dependencies and building the application binaries. You can follow the source control best practices of maintaining code only in your Git repository, and let App Service deployment take care of the rest.
 
